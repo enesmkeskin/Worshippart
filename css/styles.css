@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 70px auto 0 auto;
+  font-size: 3.6rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #630000;
+}
+
+h3 {
+  color: #3D0000;
+  font-weight: normal;
+}
+
+p {
+  font-size: 1.5rem;
+  width: 50%;
+  margin: auto;
+}
+
+.top-container {
+  background-color: #EEEBDD;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.middle-container {
+  background-color: #EEEBDD;
+}
+
+.bottom-container {
+  background-color: #EEEBDD;
+  padding-bottom: 10px;
+}
+
+.footer-link {
+  padding-top: 0;
+}
+
+hr {
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  width: 30%;
+}
+
+hr:after {
+  background: #EEEBDD;
+  content: '§';
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
+.taint {
+  height: 200px;
+  width: 200px;
+}
+
+.furor {
+  height: 200px;
+  width: 200px;
+}
+
+.reverie {
+  height: 200px;
+  width: 200px;
+}
+
+.reverie-row {
+  padding-top: 20px;
+}
+
+.bırt {
+  color: black;
+  font-size: 1.2rem;
+}
+
+.btn {
+  padding-bottom: 0;
+}
+
+a:hover {
+  color: #3D0000;
+}
+
+a {
+  color: #9A9483;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.last-hr {
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  width: auto;
+}
+
+.last-hr:after {
+  background: #EEEBDD;
+  content: '§';
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
+.navbar-brand {
+  color: red;
+}
+
+.sidenav {
+  height: 100%;
+  /* Full-height: remove this if you want "auto" height */
+  width: 100px;
+  /* Set the width of the sidebar */
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: #3D0000;
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 0;
+}
+
+.bok {
+  padding-top:
+    left: 10px;
+  color: #B61919;
+  display: inline-block;
+  z-index: 1;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 3px 8px 6px 4px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #EEEBDD;
+  display: inline-block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: black;
+}
+
+/* Style page content */
+.main {
+  margin-left: auto;
+  /* Same as the width of the sidebar */
+  padding: 0;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
